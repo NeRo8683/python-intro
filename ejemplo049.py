@@ -6,9 +6,8 @@ Se espera que el usuario ingrese una 'S' o una 'N' (incluir las minusculas). La 
 debe ser ingresada tanto como sea necesario hasta que quede comprendida dentro de las 
 posibilidades esperadas.
 """
-
 opcion = input("Continua? [S/N]:").upper()
-while opcion is not ('S', 'N'):
+while opcion not in ('S', 'N'):
     print(f"{opcion} No es valida")
-    opcion = input("Continua [S/N] :").upper
+    opcion = input("Continua [S/N] :").upper()
 print(opcion)

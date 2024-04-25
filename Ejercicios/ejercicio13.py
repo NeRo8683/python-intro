@@ -1,3 +1,5 @@
+#Ingrese un numero y verifique si el numero es par o impar
+
 numero = int(input("Ingrese un número: "))
 
 # Verificar si el número es par o impar
